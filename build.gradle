@@ -27,6 +27,8 @@ jar {
 }
 
 dependencies {
+    compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.6.1'
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.6.1'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion",
             'org.springframework.boot:spring-boot-starter-web',
             'org.springframework.boot:spring-boot-starter-actuator',
